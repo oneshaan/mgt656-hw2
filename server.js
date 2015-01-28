@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/happy-swan', function(request, response){
-    response.send('happy-swan');
+    response.send('happy swan');
 });
 
 app.listen(process.env.PORT || 4000);
